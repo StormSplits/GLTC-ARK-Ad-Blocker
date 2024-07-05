@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "GLTC ARK Ad Blocker",
+  "version": "1.0",
+  "description": "Blocks ads on webpages by hiding specific elements.",
+  "permissions": ["scripting", "webNavigation", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "./icon/Frame 1.png",
+      "48": "./icon/Frame 2.png",
+      "128": "./icon/Frame 3.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "./icon/Frame 1.png",
+    "48": "./icon/Frame 2.png",
+    "128": "./icon/Frame 3.png"
+  }
+}
