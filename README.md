@@ -24,9 +24,9 @@ The `popup.html` file defines the user interface of the extension's popup. It co
 
 The `popup.js` file handles the functionality of the buttons in the popup. It adds event listeners to the "Block Ads" and "Pause/Resume" buttons. When the "Block Ads" button is clicked, the script queries the current active tab and executes the `blockAds` function to hide or remove ad elements. The "Pause/Resume" button toggles the paused state of the ad blocker using `chrome.storage.sync.set`, updating its text accordingly.
 
-### 5. `icons/`
+### 5. `icon/`
 
-The `icons/` directory contains the icon files used by the extension. Icons are provided in different sizes (16x16, 48x48, and 128x128 pixels) to be used in various parts of the browser UI, such as the toolbar and extension management page.
+The `icon/` directory contains the icon files used by the extension. Icons are provided in different sizes (16x16, 48x48, and 128x128 pixels) to be used in various parts of the browser UI, such as the toolbar and extension management page.
 
 ## Functionality
 
